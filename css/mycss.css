@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
+}
+.btn-round { border-radius: 30px; }
+
+.price-tag {
+    background: #058;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875rem;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 1rem;
+    padding: 0 0.666rem;
+    position: relative;
+    text-align: center;
+  }
+  .price-tag:after {
+    background: inherit;
+    border-radius: 4px;
+    display: block;
+    content: "";
+    height: 22px;
+    position: absolute;
+    right: -8px;
+    top: 4px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    width: 22px;
+    z-index: -1;
+  }
+  .price-tag:hover {
+    background: #07b;
+  }
+
